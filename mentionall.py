@@ -556,8 +556,8 @@ async def handler(event):
         return await event.reply("__Sən mənə sahib deyilsən!__")
     await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/RiyadAndMe \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
-	             [Button.url('Sahibi','https://t.me/edalet_22'),
-	             Button.url('Group','https://t.me/EdaletSup')],
+	             [Button.url('Sahibi','https://t.me/RiyadAndMe'),
+	             Button.url('Qroup','https://t.me/RiyaddBlogg')],
                     ),
                     link_preview=False)
 

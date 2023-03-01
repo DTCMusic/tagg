@@ -41,7 +41,7 @@ async def start(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await event.reply(f"**🤖Salam...💭,**\nMənim Adım [Riyad Tag Bot](http://t.me/Riyadtagrobot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/RiyadTaggbot?startgroup=a')],
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/RiyadTagrobot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
 	             [Button.url('Qrup💬', 'https://t.me/RiyaddBlogg'),

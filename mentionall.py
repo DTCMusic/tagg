@@ -40,7 +40,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**🤖Salam...💭,**\nMənim Adım [Riyad Tag Bot](http://t.me/edalettagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+     await event.reply(f"**🤖Salam...💭,**\nMənim Adım [Riyad Tag Bot](http://t.me/Riyadtagrobot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
                      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/RiyadTaggbot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
@@ -51,8 +51,8 @@ async def start(event):
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [Riyad Tag Bot](http://t.me/RiyadTagbot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
-                     [Button.url('💡Bota Keç','https://t.me/Riyadtagbot?start=start')],
+    return await client.send_message(event.chat_id, f"** [Riyad Tag Bot](http://t.me/RiyadTagrobot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
+                     [Button.url('💡Bota Keç','https://t.me/Riyadtagrobot?start=start')],
 	             [Button.url('Sahib 👨‍💻', 'https://t.me/RiyadAndMe'),
 		      Button.url('Qrup💬', 'https://t.me/RiyaddBlogg')],
                     ),
@@ -64,8 +64,8 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**🤖Salam...💭,**\nMənim Adım [Riyad Tag Bot](http://t.me/Riyadtagbot)-u.\n**Qurupunuz'daki  bütün üzvüləri tağ etmək səlahiyyətinə sahibəm.\n\n📢Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə keçid edin.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/edalettagbot?startgroup=a')],
+     await event.edit(f"**🤖Salam...💭,**\nMənim Adım [Riyad Tag Bot](http://t.me/Riyadtagrobot)-u.\n**Qurupunuz'daki  bütün üzvüləri tağ etmək səlahiyyətinə sahibəm.\n\n📢Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə keçid edin.**", buttons=(
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/riyadtagrobot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
 	             [Button.url('Qrup💬', 'https://t.me/RiyaddBlogg'),
@@ -85,7 +85,7 @@ async def handler(event):
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [Riyad Tag Bot](http://t.me/Riyadtagbot)-un & Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
+    await event.edit(f"**📌 [Riyad Tag Bot](http://t.me/Riyadtagrobot)-un & Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
 		     [Button.url('🧑‍💻 Sahib', 'https://t.me/RiyadAndMe')],
 	             [Button.url('Qrup💬', 'https://t.me/RiyaddBlogg'),
                       Button.url('Sahib 👨‍💻', 'https://t.me/RiyadAndMe')],

@@ -25,7 +25,7 @@ async def hg(bot: Client, msg: Message):
 
 #-------------------------------------------------------------OWNERS SALAMLAMA MSJ---------------------------------------------------------------------------------------#
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [Ədalət 𝗧𝗮𝗴𝗴𝗲𝗿](https://t.me/EdaletSup)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
+            await msg.reply('🤖 [Riyad 𝗧𝗮𝗴𝗴𝗲𝗿](https://t.me/RiyadAndMe)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 app.start()
